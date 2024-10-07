@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembelajaran Kombinasi Warna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kombinasi Warna </h1>
+        <p>Pilih beberapa warna dan lihat hasilnya!!!</p>
+
+        <!-- Daftar warna yang dipilih -->
+        <div id="colorPickerContainer">
+            <div class="color-picker">
+                <label for="color1">Warna 1:</label>
+                <input type="color" class="color-input" value="#ff0000">
+            </div>
+            <div class="color-picker">
+                <label for="color2">Warna 2:</label>
+                <input type="color" class="color-input" value="#0000ff">
+            </div>
+        </div>
+
+        <!-- Tombol untuk menambah warna -->
+        <button id="addColorBtn">Tambah Warna</button>
+
+        <!-- Tombol untuk menggabungkan warna -->
+        <button id="combineBtn">Gabungkan Warna</button>
+
+        <!-- Hasil warna kombinasi -->
+        <div class="result">
+            <h2>Hasil Penggabungan:</h2>
+            <div id="combinedColor"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
